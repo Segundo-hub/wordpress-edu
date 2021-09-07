@@ -1,0 +1,23 @@
+body{
+   background-color: aliceblue;
+}
+
+.flex{
+   display: flex;
+}
+/* purgecss start ignore */
+.hola-mundo{
+   display: block;
+   &.active{
+      display: flex;
+   }
+}
+/* purgecss end ignore */
+
+.foote{
+   display: grid;
+}
+.container{
+   display: flex;
+}
+
